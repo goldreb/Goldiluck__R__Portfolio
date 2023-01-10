@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Goldiluck - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Source+Code+Pro:wght@300;400;900&family=Source+Sans+Pro:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <p>gold<strong class="nav__logo">I</strong>Luck</p>
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">What I Do</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+
+          <li class="nav__item">
+            <a href="#footer" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction Home -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Goldiluck</strong>
+      </h1>
+
+      <p class="section__substitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="/images/goldiluck_profile.jpg"
+        alt="profile picture of Goldiluck"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- my services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">What I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Design + Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>SEO</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <!-- / service -->
+
+        <div class="service">
+          <h3>WordPress / Drupal / Hubspot</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+        </div>
+        <!-- / service -->
+      </div>
+      <!-- / services -->
+    </section>
+
+    <!-- my work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title section__title--work">My Work</h2>
+
+      <p class="section__subtitle section__subtitle--work">
+        A selection of my work
+      </p>
+
+      <div class="portfolio">
+        <!-- portfolio item 01 -->
+        <a href="portfolio-item-01.html" class="portfolio__item">
+          <img src="./images/portfolio-01.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- portfolio item 02 -->
+        <a href="portfolio-item-02.html" class="portfolio__item">
+          <img src="./images/portfolio-02.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- portfolio item 03 -->
+        <a href="portfolio-item-03.html" class="portfolio__item">
+          <img src="./images/portfolio-03.jpg" alt="" class="portfolio__img" />
+        </a>
+        <!-- portfolio item 04
+            <a href="#" class="portfolio__item">
+                <img src="./images/portfolio-04.jpg" alt="" class="portfolio__img" />
+              </a> -->
+      </div>
+      <!-- <a href=""></a> -->
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Apparel Designer and Web Developer based out of Hillsboro
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae,
+          incidunt eius officiis iste vitae architecto voluptatibus, ex
+          laboriosam praesentium quo ad, cumque laborum ipsum voluptates soluta
+          voluptate ratione repellat ipsam!
+        </p>
+        <p></p>
+        <a href="#about" class="btn">My Resume</a>
+      </div>
+      <img
+        src="/images/fullbody_pic.jpg"
+        alt="Goldiluck at Moab"
+        class="about-me__img"
+      />
+    </section>
+
+    <!-- footer/contact -->
+    <footer class="footer" id="footer">
+      <a href="mailto:gorebollido@gmail.com" class="footer__link"
+        >gorebollido@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list-item">
+          <a href="https://github.com/goldreb" class="social-list__link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a
+            href="https://www.linkedin.com/in/goldiluck-rebollido/"
+            class="social-list__link"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social-list-item">
+          <a href="https://twitter.com/goldspycoder" class="social-list__link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
