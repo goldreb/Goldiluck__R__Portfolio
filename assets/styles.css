@@ -318,7 +318,7 @@ nav {
 }
 
 .services {
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 .service {
@@ -467,6 +467,16 @@ nav {
 
 .social-list__link {
   padding: 0.5em;
+}
+
+.fa-brands {
+  padding: 0.825em;
+  font-size: 4em;
+}
+
+.fa-brands:hover {
+  color: #fac213;
+  text-decoration: underline;
 }
 
 /* portfolio individual */
